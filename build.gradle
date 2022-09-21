@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+archivesBaseName = 'jsm64'
+version = '1.0.0'
+group = 'com.github.libsm64'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(19)
+    }
+}
+
+tasks.withType(JavaCompile).all {
+    options.compilerArgs += [
+        '--enable-preview'
+    ]
+}

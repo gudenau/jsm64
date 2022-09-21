@@ -1,3 +1,4 @@
+/* Very basic test code.
 package com.github.libsm64.internal;
 
 import com.github.libsm64.*;
@@ -48,7 +49,7 @@ public final class Test {
                     );
                     javax.imageio.ImageIO.write(image, "PNG", stream);
                 }
-                 */
+                 * /
             } finally {
                 LibSM64.sm64_global_terminate();
             }
@@ -84,3 +85,4 @@ public final class Test {
         return builder.toString();
     }
 }
+*/
